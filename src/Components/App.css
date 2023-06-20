@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+  font-weight: var(--medium--);
+}
+
+:root{
+  --text-font: 'Montserrat', sans-serif;
+  --light--:200;
+  --medium--:400;
+  --heavy--:700; 
+}
+
+/* navBar */
+.navbar {
+  font-family: var(--text-font);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  max-width:1200px;
+}
+.navbar h1 {
+  color: #000000;
+  font-weight: var(--medium--);
+  font-size: 2rem;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+  font-weight: var(--medium--);
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.new_btn{
+  outline: 1px solid black ;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 0 auto;
+  max-width: 100vh;
+  margin-top: 30px;
+}
+
+/* Home */
+/* notesList */
+.note-list{
+  width: 120vh;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.note-preview{
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.note-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);  
+}
+
+a {
+  text-decoration: none; /* no underline */
+}
+
+.note-preview h2{
+  padding: 1rem;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+
+/* create new note form */
+.create {
+  width: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create textarea{
+  min-height: 300px;
+}
+.create button {
+  margin-top: 10px;
+  background: black;
+  color: #fff;
+  border: 0;
+  padding: 0.7rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* note details */
+.note-details article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-details h2{
+  text-align: center;
+  font-size:3rem;
+  padding: 1rem;
+  text-decoration: underline;
+}
+
+.note-details p{
+  text-align: center;
+  padding: 1rem;
+  font-weight: var(--heavy--);
+}
+
+.note_body{ 
+  text-align: center;
+  width: 80%;
+}
+
+
+
+/* signup / login */
+
+.Signup,.Login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card{
+  width: 600px;
+}
+
+.card-body{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#email, #password, #password-confrim{
+  margin-bottom: 10px;
+}
