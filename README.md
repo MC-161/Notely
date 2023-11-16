@@ -1,70 +1,78 @@
-# Getting Notely
-URL:https://notely-1.web.app/
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Notley - Note Taking Web App
 
-## Available Scripts
+Welcome to Notley! This web application provides users with a streamlined note-taking experience. Built with React, Firebase, and Bootstrap 5.
 
-In the project directory, you can run:
+## Screenshots
+![Screenshot 2023-11-16 at 18 34 09](https://github.com/MC-161/Notely/assets/95971638/825e724f-631f-411b-85f6-1579a0a59548)
+![Screenshot 2023-11-16 at 18 21 47](https://github.com/MC-161/Notely/assets/95971638/35e6f034-7e89-467a-8dad-735bbd3ee994)
+![Screenshot 2023-11-16 at 18 32 45](https://github.com/MC-161/Notely/assets/95971638/42d4905b-db6e-4a74-a3c3-8b7a9007abfa)
+## Features
 
-### `npm start`
+- **Effortless Note Taking:**
+  - Quickly create, edit, and delete notes with an intuitive user interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Real-time Sync:**
+  - Seamlessly sync your notes across devices in real-time using Firebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design:**
+  - Enjoy a responsive and visually pleasing design powered by Bootstrap 5.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React:**
+  - A JavaScript library for building user interfaces, providing a fast and dynamic user experience.
 
-### `npm run build`
+- **Firebase:**
+  - A comprehensive backend service for real-time database, authentication, and cloud functions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Bootstrap 5:**
+  - A popular CSS framework for creating responsive and visually appealing web applications.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Install Dependencies
 
-### `npm run eject`
+To get started with Notley, follow these steps to install the necessary dependencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the Repository:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    git clone https://github.com/your-username/notley.git
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Navigate to the Project Directory:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    cd notley
+    ```
 
-## Learn More
+3. **Install Node Modules:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Configure Firebase:**
 
-### Code Splitting
+   - Create a Firebase project on the [Firebase Console](https://console.firebase.google.com/).
+   - Add your Firebase configuration details in the appropriate files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. **Run the App:**
 
-### Analyzing the Bundle Size
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. **Open in Browser:**
 
-### Making a Progressive Web App
+   - Open your browser and go to `http://localhost:3000` to view the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+We welcome contributions from the community! If you want to contribute to Notley, please follow our [Contributing Guidelines](CONTRIBUTING.md).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
